@@ -2162,19 +2162,22 @@ head(test$pred_svm)</code></pre>
 <h3>Checking the accuracy</h3>
 <pre class="r"><code>mean(test$pred_svm == test[,1])</code></pre>
 <pre><code>## [1] 0.7045</code></pre>
+<div id="we-see-her-that-the-tuned-random-forest-model-gave-us-the-best-accuracy-i.e-94.55-and-well-consider-that-as-our-final-model." class="section level4">
+<h4>We see her that the tuned Random Forest model gave us the best accuracy i.e 94.55 and we’ll consider that as our final model.</h4>
 </div>
-<div id="we-see-her-that-the-tuned-random-forest-model-gave-us-the-best-accuracy-i.e-94.55-and-well-consider-that-as-our-final-model." class="section level3">
-<h3>We see her that the tuned Random Forest model gave us the best accuracy i.e 94.55 and we’ll consider that as our final model.</h3>
 </div>
-<div id="conclusion-building-this-machine-learning-models-can-help-us-to-anticipate-and-classify-the-severity-of-any-airplane-accident-based-on-past-incidents.-with-this-all-airlines-even-the-entire-aviation-industry-can-predict-the-severity-of-airplane-accidents-caused-due-to-various-factors-and-correspondingly-have-a-plan-of-action-to-minimize-the-risk-associated-with-them." class="section level3">
-<h3>Conclusion: Building this Machine Learning models can help us to anticipate and classify the severity of any airplane accident based on past incidents. With this, all airlines, even the entire aviation industry, can predict the severity of airplane accidents caused due to various factors and, correspondingly, have a plan of action to minimize the risk associated with them.</h3>
+<div id="conclusion" class="section level3">
+<h3>Conclusion:</h3>
+<div id="building-this-machine-learning-models-can-help-us-to-anticipate-and-classify-the-severity-of-any-airplane-accident-based-on-past-incidents.-with-this-all-airlines-even-the-entire-aviation-industry-can-predict-the-severity-of-airplane-accidents-caused-due-to-various-factors-and-correspondingly-have-a-plan-of-action-to-minimize-the-risk-associated-with-them." class="section level4">
+<h4>Building this Machine Learning models can help us to anticipate and classify the severity of any airplane accident based on past incidents. With this, all airlines, even the entire aviation industry, can predict the severity of airplane accidents caused due to various factors and, correspondingly, have a plan of action to minimize the risk associated with them.</h4>
 </div>
-<div id="further-in-the-analysis-i-am-trying-to-boost-the-model-using-gradient-boost." class="section level3">
-<h3>Further in the analysis I am trying to boost the model using gradient boost.</h3>
+<div id="further-in-the-analysis-i-am-planning-to-impove-the-accuracy-and-prediction-capability-by-boosting-the-model-using-gradient-boost." class="section level4">
+<h4>Further in the analysis I am planning to impove the accuracy and prediction capability by boosting the model using gradient boost.</h4>
 <pre class="r"><code>#gbm_grid =  expand.grid(interaction.depth = 1:5, n.trees = (1:6) * 500, shrinkage = c(0.001, 0.01, 0.1),n.minobsinnode = 10)</code></pre>
 <pre class="r"><code>#install.packages(&quot;gbm&quot;)
 #library(gbm)
 #flight_gbm_tune = train(Severity ~ ., data = train,method = &quot;gbm&quot;, trControl = cv_5, verbose = FALSE, tuneGrid = gbm_grid)</code></pre>
+</div>
 </div>
 </div>
 

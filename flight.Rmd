@@ -291,7 +291,7 @@ mean(test$pred_svm == test[,1])
 #### We see her that the tuned Random Forest model gave us the best accuracy i.e 94.55 and we'll consider that as our final model.
 
 ### Conclusion: 
-####Building this Machine Learning models can help us to anticipate and classify the severity of any airplane accident based on past incidents. With this, all airlines, even the entire aviation industry, can predict the severity of airplane accidents caused due to various factors and, correspondingly, have a plan of action to minimize the risk associated with them.
+#### Building this Machine Learning models can help us to anticipate and classify the severity of any airplane accident based on past incidents. With this, all airlines, even the entire aviation industry, can predict the severity of airplane accidents caused due to various factors and, correspondingly, have a plan of action to minimize the risk associated with them.
 
 
 #### Further in the analysis I am planning to impove the accuracy and prediction capability by boosting the model using gradient boost.
